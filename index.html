@@ -27,5 +27,43 @@
             </div>
         </div>
     </header>
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, harum nihil alias accusantium necessitatibus rem iste, veritatis facere, ducimus optio exercitationem iusto voluptas dignissimos doloremque praesentium reprehenderit illo eum odit?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Dev</span><br>Designing Web user interfaces</li>
+                            <li><span>Back-end Dev</span><br>Developing Back-end infrastructure</li>
+                            <li><span>Database Dev</span><br>Desgining DBMS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020 - Current</span><br>Computer Science and Math tutor at CAS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - Current</span><br>Bachelor of Computer Science at HPU</li>
+                            <li><span>2015 - 2018</span><br>Highschool Diploma at Quang Trung Highschool</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
 </body>
 </html>
